@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="main" fetch="https://github.com/pure-soul-kk"/>
+  <remote name="main" fetch="https://github.com/pure-soul-kk" />
   <remote name="hardware" fetch="https://github.com/LineageOS" />
-  <remote name="clang"  fetch="https://gitlab.com/GhostMaster69-dev"/>
+  <remote name="clang"  fetch="https://gitlab.com/GhostMaster69-dev" />
   
   <!--Removals-->
   <remove-project name="packages_apps_Settings" />
