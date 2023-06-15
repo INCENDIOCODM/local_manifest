@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="main" fetch="https://github.com/pure-soul-kk" />
-  <remote name="hardware" fetch="https://github.com/LineageOS" />
   <remote name="clang"  fetch="https://gitlab.com/itsshashanksp" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 <remote name="dolby" fetch="https://gitlab.com/unsatifsed27" />
@@ -22,9 +21,6 @@
  <!-- Common Vendor Tree -->
  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="main" revision="thirteen" clone-depth="1" />
   
- <!-- Hardware -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hardware" revision="lineage-20" clone-depth="1" />
-
 <!-- Dolby -->
  <project path="vendor/dolby" name="dolby" remote="sondolby" revision="dolby" clone-depth="1" />
 
