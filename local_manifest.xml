@@ -22,7 +22,7 @@
  <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="main" revision="thirteen" clone-depth="1" />
   
 <!-- Dolby -->
- <project path="vendor/dolby" name="dolby" remote="sondolby" revision="dolby" clone-depth="1" />
+ <project path="vendor/dolby" name="dolby" remote="dolby" revision="sondolby" clone-depth="1" />
 
  <!--ANX Cam-->
  <project path="vendor/xiaomi/sweet-miuicamera" name="miuicamera" remote="dolby" revision="13" clone-depth="1" />
