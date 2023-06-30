@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="main" fetch="https://github.com/pure-soul-kk" />
-  <remote name="clang"  fetch="https://gitlab.com/itsshashanksp" />
+  <remote name="main" fetch="https://github.com/Astridxx" />
+  <remote name="main1"  fetch="https://github.com/INCENDIOCODM" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
  <!-- Device Trees -->
- <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="main" revision="thirteen" clone-depth="1" />
+ <project path="device/xiaomi/haydn" name="android_device_xiaomi_haydn" remote="main1" revision="crDroid-13" clone-depth="1" />
    
  <!-- Common Device Tree -->
- <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" remote="main" revision="thirteen" clone-depth="1" />
+ <project path="device/xiaomi/sm8350-common" name="android_device_xiaomi_sm8350-common" remote="main" revision="crDroid-13" clone-depth="1" />
   
  <!-- Kernel Trees-->
- <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" remote="main" revision="t13" clone-depth="1" />
+ <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="main" revision="lineage-20" clone-depth="1" />
   
  <!-- Vendor Tree -->
- <project path="vendor/xiaomi/sweet" name="proprietary_vendor_xiaomi_sweet" remote="main" revision="thirteen" clone-depth="1" />
+ <project path="vendor/xiaomi/haydn" name="proprietary_vendor_xiaomi_haydn" remote="main" revision="lineage-20" clone-depth="1" />
  
  <!-- Common Vendor Tree -->
- <project path="vendor/xiaomi/sm6150-common" name="proprietary_vendor_xiaomi_sm6150-common" remote="main" revision="thirteen" clone-depth="1" />
+ <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="main" revision="lineage-20" clone-depth="1" />
 
  <!--ANX Cam-->
  <project path="vendor/xiaomi/sweet-miuicamera" name="android_vendor_xiaomi_sweet-miuicamera" remote="main" revision="thirteen" clone-depth="1" />
